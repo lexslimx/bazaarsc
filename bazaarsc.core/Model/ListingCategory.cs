@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace bazaarcs.api.Model
+{
+    public class ListingCategory
+    {
+        public int ListingCategoryId { get; set; }
+        public string ListingCategoryName { get; set; }
+    }
+}
